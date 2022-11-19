@@ -17,7 +17,7 @@
     <!-- Navigation bar -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img class="navbar-brand" src="" alt="" /> Portfolio
+        <img class="navbar-brand" src="" alt="" /> LadyCosy
         <button
           class="navbar-toggler"
           type="button"
@@ -30,31 +30,26 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="nav justify-content-flex-start">
             <li class="nav-item">
-              <a class="nav-link" href="#About Me">About Me</a>
+              <a class="nav-link active" href="#About Me">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Skills & Projects"
+              <a class="nav-link active" href="#Skills & Projects"
                 >Skills & Projects</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Contact Me">Contact Me</a>
+              <a class="nav-link active" href="#Contact Me">Contact Me</a>
             </li>
-            <li>
-              <a
-                class="btn btn-primary btn-lg navCTA classes"
-                href="#"
-                role="bottom"
-                >Resume</a
-              >
+            <li class="nav-item">
+              <a class="nav-link active" href="https://annako-resume.netlify.app" target="_blank">Resume</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
-    <!-- End navigation bar -->
+    <!-- End Navigation bar -->
 
     <!-- Jumbotron -->
     <div class="jumbotron" id="About Me">
@@ -66,17 +61,66 @@
         It uses utility classes for typography and spacing to space content out
         within the larger container.
       </p>
-      <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#!" role="button"
-          >Some action</a
-        >
-      </p>
     </div>
-    <!-- End jumbotron -->
+    <!-- End Jumbotron -->
+
+     <!-- Content -->
+ <div>
+     <div class="cards-section">
+       <!-- Card 1 -->
+      <div class="card">
+        <img class="card-img-top" src="images/GCU2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Project1</h4>
+          <p class="card-text">
+            This is a paragraph about project 1
+          </p>
+          <a href="#!" target="_blank" class="btn btn-primary">View</a>
+        </div>
+      </div>
+        <!-- Card 2 -->
+        <div class="card">
+          <img class="card-img-top" src="images/GCU2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Project1</h4>
+            <p class="card-text">
+              This is a paragraph about project 1
+            </p>
+            <a href="#!" target="_blank" class="btn btn-primary">View</a>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="card">
+          <img class="card-img-top" src="images/GCU2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Project1</h4>
+            <p class="card-text">
+              This is a paragraph about project 1
+            </p>
+            <a href="#!" target="_blank" class="btn btn-primary">View</a>
+          </div>
+        </div>
+         <!-- Card 4 -->
+         <div class="card">
+          <img class="card-img-top" src="images/GCU2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Project1</h4>
+            <p class="card-text">
+              This is a paragraph about project 1
+            </p>
+            <a href="#!" target="_blank" class="btn btn-primary">View</a>
+          </div>
+        </div>
+
+    </div>
+    
+  </div>
+
+      <!-- End Content -->
 
     <!-- Contact Me -->
     <div>
-      <div>
+      <div class="contact-me-section" id="Contact Me">
         <h2>Contact Me</h2>
         <ul>
           <li>
@@ -101,33 +145,35 @@
       </div>
       <div>
         <form>
-          <h5>Drop a message</h5>
+          <h5>Drop me a message</h5>
           <div class="form-group">
-            <label for="formGroupExampleInput">You Name</label>
-            <input
+            <label for="formGroupExampleInput" class="col-sm-2 col-form-label">You Name</label>
+            <div class="col-sm-4">
+              <input
               type="text"
               class="form-control"
               id="formGroupExampleInput"
               placeholder=""
-            />
+            /></div>
           </div>
           <div class="form-group">
-            <label for="formGroupExampleInput2">E-mail address</label>
-            <input
+            <label for="formGroupExampleInput2" class="col-sm-2 col-form-label"> E-mail address</label>
+            <div class="col-sm-4">
+              <input
               type="email"
               class="form-control"
               id="formGroupExampleInput2"
               placeholder="hi@domain.com"
             />
-          </div>
+          </div></div>
           <div class="form-group">
-            <label for="formGroupExampleInput2">Your Message</label>
-            <input
+            <label for="formGroupExampleInput2" class="col-sm-2 col-form-label">Your Message</label>
+            <div class="col-sm-4"><input
               type="text"
               class="form-control"
               id="formGroupExampleInput3"
               placeholder=""
-            />
+            /></div>
           </div>
           <button
             type="button"
@@ -155,6 +201,10 @@
         </form>
       </div>
     </div>
+
+
+
+     
     <!-- End Contact Me -->
 
     <!-- Footer -->
