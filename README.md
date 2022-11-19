@@ -3,7 +3,9 @@ This repo is for the challenge 3 - creating personal portfolio page using Bootst
 
 ## User Story
 I AM a front-end development and UX bootcamp student
+
 WHO wants to build a portfolio page using Bootstrap CSS Framework
+
 TO show my skills and experience to potential employers
 
 ## Acceptance Criterium  
