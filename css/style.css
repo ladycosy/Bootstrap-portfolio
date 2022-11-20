@@ -1,3 +1,59 @@
+/* Variables */
+:root {
+  --bg-color: #e8eef0;
+  --header-color: #4646ef;
+  --primary-color: #0f5a8f;
+  --secondary-color: rgb(48, 248, 234);
+  --text-color: #808287;
+}
+/* Variables end */
+
+body {
+  font-family: serif;
+  background: rgb(254, 244, 224);
+}
+
+h1 {
+  font-size: 5em;
+  border: 2px solid red;
+}
+h2 {
+  font-size: 3em;
+  border: 2px solid red;
+}
+
+header {
+  background: var(--header-color);
+  display: flex;
+  justify-content: flex-end;
+  border: 2px solid black;
+}
+
+header nav {
+  color: var(--header-color);
+  border: 1px solid red;
+}
+
+header ul {
+  background: var(--header-color);
+  border: 1px solid red;
+}
+
+header li {
+  color: white;
+  opacity: 80%;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(224, 221, 221);
+}
+header li :hover {
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+}
+
 .bd-example {
   width: 20%;
 }
@@ -5,6 +61,41 @@
 .cardcontainer {
   width: 200px;
   border: 1px solid gray;
+}
+
+.jumbotron {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+  border: 2px solid black;
+}
+
+.jumbotron img {
+  border-radius: 60em;
+  width: 20%;
+  margin-inline-end: 5em;
+}
+
+.jumbotron div {
+  width: 50%;
+  border: 2px solid red;
+  display: inline-block;
+}
+
+.jumbotron p {
+  border: 2px solid red;
+}
+
+.jumbotron a {
+  text-decoration: none;
+  color: darkblue;
+  background: coral;
+  padding: 0 1rem;
+  height: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 1.25rem;
+  border: 2px solid red;
 }
 
 .projects-section {
@@ -22,4 +113,17 @@
 
 .cardcontainer {
   opacity: 80%;
+}
+
+.cardcontainer a {
+  border-radius: 1.25em;
+}
+
+.button {
+  border-radius: 1.25rem;
+}
+
+.link-image {
+  width: 35px;
+  height: 35px;
 }
