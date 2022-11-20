@@ -7,7 +7,7 @@
   border: 1px solid gray;
 }
 
-.cards-section {
+.projects-section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -15,10 +15,11 @@
   border: 2px solid black;
 }
 
-.cardcontainer {
-  opacity: 85%;
-}
-.cards-section :hover {
+.projects-section :hover {
   opacity: 100%;
-  box-shadow: 5px 10px 5px rgb(222, 217, 217);
+  box-shadow: 10px 10px 40px rgb(222, 217, 217);
+}
+
+.cardcontainer {
+  opacity: 80%;
 }
