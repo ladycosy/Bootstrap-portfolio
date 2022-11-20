@@ -2,6 +2,23 @@
   width: 20%;
 }
 
-.card {
-  width: 300px;
+.cardcontainer {
+  width: 200px;
+  border: 1px solid gray;
+}
+
+.cards-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 2px solid black;
+}
+
+.cardcontainer {
+  opacity: 85%;
+}
+.cards-section :hover {
+  opacity: 100%;
+  box-shadow: 5px 10px 5px rgb(222, 217, 217);
 }
