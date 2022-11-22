@@ -1,32 +1,37 @@
 /* Variables */
 :root {
   --bg-color: #e8eef0;
-  --header-color: #4646ef;
-  --primary-color: #0f5a8f;
+  --header-color: #57578f;
+  --primary-color: #d9e4eb;
   --secondary-color: rgb(48, 248, 234);
-  --text-color: #808287;
+  --text-color: #56575a;
 }
 /* Variables end */
 
 body {
   font-family: serif;
+  color: var(--text-color);
   background: rgb(254, 244, 224);
 }
 
 h1 {
   font-size: 5em;
-  border: 2px solid red;
 }
 h2 {
   font-size: 3em;
-  border: 2px solid red;
 }
 
 header {
   background: var(--header-color);
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   border: 2px solid black;
+}
+
+header h2 {
+  color: var(--primary-color);
+  padding-left: 2rem;
 }
 
 header nav {
@@ -36,22 +41,22 @@ header nav {
 
 header ul {
   background: var(--header-color);
-  border: 1px solid red;
 }
 
 header li {
-  color: white;
   opacity: 80%;
+  font-size: 20px;
 }
 
 header a {
   text-decoration: none;
-  color: rgb(224, 221, 221);
+  /* color: rgb(224, 221, 221); */
+  color: var(--primary-color);
 }
 header li :hover {
   text-decoration: none;
   color: white;
-  font-weight: 200;
+  text-shadow: 5px 5px 30px #787676;
 }
 
 .bd-example {
@@ -68,22 +73,22 @@ header li :hover {
   align-items: center;
   flex-direction: row;
   border: 2px solid black;
+  text-align: left;
 }
 
 .jumbotron img {
   border-radius: 60em;
   width: 20%;
   margin-inline-end: 5em;
+  margin-inline-start: 5em;
 }
 
 .jumbotron div {
   width: 50%;
-  border: 2px solid red;
   display: inline-block;
 }
 
 .jumbotron p {
-  border: 2px solid red;
 }
 
 .jumbotron a {
@@ -108,15 +113,31 @@ header li :hover {
 
 .projects-section :hover {
   opacity: 100%;
-  box-shadow: 10px 10px 40px rgb(222, 217, 217);
 }
 
 .cardcontainer {
-  opacity: 80%;
+  opacity: 75%;
+  box-shadow: 10px 10px 50px rgb(175, 169, 169);
+}
+
+.card-body {
+  display: inline-block;
+  text-align: center;
+}
+
+.card-img-top {
+  height: 40%;
+  width: 100%;
+}
+
+.card-title {
+  width: 100%;
+  font-weight: bold;
 }
 
 .cardcontainer a {
   border-radius: 1.25em;
+  font-size: 0.75em;
 }
 
 .button {
@@ -124,6 +145,6 @@ header li :hover {
 }
 
 .link-image {
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  aspect-ratio: 1/1;
 }
