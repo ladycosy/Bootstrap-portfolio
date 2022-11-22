@@ -2,8 +2,7 @@
 :root {
   --bg-color: #e8eef0;
   --header-color: #57578f;
-  --primary-color: #d9e4eb;
-  --secondary-color: rgb(48, 248, 234);
+  --primary-color: #e3e3ee;
   --text-color: #56575a;
 }
 /* Variables end */
@@ -11,12 +10,18 @@
 body {
   font-family: serif;
   color: var(--text-color);
-  background: rgb(254, 244, 224);
+  background: var(--primary-color);
 }
 
 h1 {
   font-size: 5em;
 }
+
+h1 span {
+  font-weight: bold;
+  color: rgb(60, 58, 58);
+}
+
 h2 {
   font-size: 3em;
 }
@@ -26,11 +31,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid black;
-}
-
-header span {
-  background: var(--header-color);
+  box-shadow: 20px 20px 10px var(--text-color);
 }
 
 header h2 {
@@ -63,15 +64,6 @@ header li :hover {
   text-shadow: 5px 5px 30px #787676;
 }
 
-.bd-example {
-  width: 20%;
-}
-
-.cardcontainer {
-  width: 200px;
-  border: 1px solid gray;
-}
-
 .jumbotron {
   width: 100%;
   display: inline-flex;
@@ -79,8 +71,8 @@ header li :hover {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  border: 2px solid black;
   text-align: left;
+  background: #e0e0f1;
 }
 
 .jumbotron img {
@@ -98,7 +90,8 @@ header li :hover {
 }
 
 .jumbotron p {
-  font-size: 1em;
+  font-size: 1.2em;
+  padding-top: 0.2em;
 }
 
 /* .jumbotron a {
@@ -121,7 +114,6 @@ header li :hover {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  border: 2px solid black;
 }
 
 .projects-section :hover {
@@ -131,19 +123,31 @@ header li :hover {
 .cardcontainer {
   opacity: 75%;
   box-shadow: 10px 10px 50px rgb(175, 169, 169);
+  width: 300px;
+  height: 500px;
+  border: 1px solid rgb(227, 233, 243);
+  position: relative;
+  margin-top: 2em;
 }
 
 .card-body {
+  height: 60%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
   display: inline-block;
   text-align: center;
 }
 
 card-body p {
   font-size: 1em;
+  height: 50%;
 }
 
 .card-body h6 {
   font-size: 0.75em;
+  height: 20%;
 }
 
 .card-img-top {
@@ -154,43 +158,65 @@ card-body p {
 .card-title {
   width: 100%;
   font-weight: bold;
+  height: 20%;
 }
 
 .cardcontainer a {
   border-radius: 1.25em;
   font-size: 0.75em;
-}
-
-.button {
-  border-radius: 1.25rem;
+  border: 1px solid #57578f !important;
 }
 
 .link-image {
-  width: 25px;
+  width: 28px;
   aspect-ratio: 1/1;
 }
 
 .form-section {
-  width: 300px;
+  width: 100%;
   display: inline-flex;
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
 form {
+  width: 30%;
   margin-top: 5em;
-  background: #e2e0e0;
+  background: #ceceeb;
   color: var(--text-color);
   border: 2px solid var(--header-color);
+  color: var(--text-color);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 form button {
   width: 5em;
+  margin-bottom: 1em;
+  border: 1px solid var(--header-color) !important;
 }
 
 form input {
-  /* width: 20em; */
-  border: 2px solid black;
+  padding-top: 0;
+  padding-bottom: 4em;
 }
+
+form h5 {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+/* section ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+} */
