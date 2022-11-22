@@ -17,4 +17,6 @@ TO show my skills and experience to potential employers
 - Repository contains multiple descriptive commit messages
 - Repository contains quality readme with description, screenshot, link to deployed application
 
-PUT A PRINT RESUME BUTTON IN FOOTER
+## Deployed Website
+
+[Link](https://ladycosy.github.io/Bootstrap-portfolio/)
