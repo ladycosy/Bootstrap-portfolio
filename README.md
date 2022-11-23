@@ -18,6 +18,10 @@ TO show my skills and experience to potential employers
 - Repository contains quality readme with link to deployed application - see below.
 
 
-## Deployed Website
+## Link to Deployed Website
 
-[Link](https://ladycosy.github.io/Bootstrap-portfolio/)
+[Page Link](https://ladycosy.github.io/Bootstrap-portfolio/)
+
+## Link to Project GitHub Repo
+
+[GitHub Link](https://github.com/ladycosy/Bootstrap-portfolio.git)
