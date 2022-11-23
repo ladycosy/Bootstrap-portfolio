@@ -20,6 +20,7 @@ h1 {
 h1 span {
   font-weight: bold;
   color: rgb(60, 58, 58);
+  font-size: 5.5rem;
 }
 
 h2 {
@@ -37,7 +38,9 @@ header {
 
 header h2 {
   color: var(--primary-color);
+  font-size: 3rem;
   padding-left: 2rem;
+  margin-top: 0.75rem;
 }
 
 header nav {
@@ -46,7 +49,6 @@ header nav {
 
 header ul {
   background: var(--header-color);
-  margin: 0;
 }
 
 header li {
@@ -69,7 +71,7 @@ header li :hover {
 .jumbotron {
   width: 100%;
   display: inline-flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
@@ -80,7 +82,8 @@ header li :hover {
 .jumbotron img {
   border-radius: 50%;
   width: 20em;
-  aspect-ratio: 1/1;
+  height: 20em;
+  /* aspect-ratio: 1 / 1; */
 }
 
 .jumbotron div {
@@ -254,12 +257,10 @@ form h5 {
   padding: 0.5rem 2.5rem;
   background-color: white;
   border-radius: 2rem;
-  opacity: 100%;
 }
 
-.contact-me-footer a :hover {
-  opacity: 90%;
-  animation: forwards;
+.contact-me-footer a :hover{
+  filter: brightness(130%);
 }
 
 .contact-me-footer li {
@@ -280,3 +281,17 @@ footer p {
 }
 
 /* End Footer */
+
+
+/* Media Queries */
+
+@media screen and (max-width: 864px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  .jumbotron div {text-align: center;}
+
+  /* End Media Queries */
