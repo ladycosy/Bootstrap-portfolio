@@ -1,6 +1,6 @@
 # Bootstrap-portfolio
 
-This repo is for the challenge 3 - creating personal portfolio page using Bootstrap CSS Framework. Using already existing code will help to start off and I will further style the page in CSS file. The page will include the key components: navigation bar, hero section, skills/projects section and contact section. The goal of this project is to outline my story, my experience and skills to potential employers. I will be using HTML and CSS for this project. 
+This repo is for the challenge 3 - creating personal portfolio page using Bootstrap CSS Framework. Using already existing code will help to start off and I will style the page further myself in CSS file. The page will include the key components: navigation bar, hero section, skills/projects section and contact section. The goal of this project is to outline my story, my experience and skills to potential employers. I will be using HTML and CSS for this project. 
 
 ## User Story
 
