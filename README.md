@@ -25,3 +25,4 @@ TO show my skills and experience to potential employers
 ## Link to Project GitHub Repo
 
 [GitHub Link](https://github.com/ladycosy/Bootstrap-portfolio.git)
+ --
