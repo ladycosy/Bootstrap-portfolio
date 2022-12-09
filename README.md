@@ -26,4 +26,4 @@ TO show my skills and experience to potential employers
 
 [GitHub Link] (https://github.com/ladycosy/Bootstrap-portfolio.git)
  
---
+---
