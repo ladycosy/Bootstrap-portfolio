@@ -27,6 +27,6 @@ TO show my skills and experience to potential employers
 
 ## Screenshot
 
-<img src="" alt="drawing" width="400"/>
+<img src="https://github.com/ladycosy/bootstrap-portfolio/blob/14b7d94fb8dfdf854859e0b7906a75817ba52f47/images/page_bootstrap_screenshot.png" alt="page screenshot" width="400"/>
  
 ---
