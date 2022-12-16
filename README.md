@@ -9,7 +9,7 @@ WHO wants to build a portfolio page using Bootstrap CSS Framework
 TO show my skills and experience to potential employers
 ```
 
-## Acceptance Criterium
+## Acceptance Criteria
 
 - Repository follows best practices for file structure and naming conventions. There will be separate folder for images and other visual items like icons. Also CSS file will be places in its own CSS folder.
 - Repository follows best practices for class/id naming conventions, indentation, quality comments in HTML and CSS files
