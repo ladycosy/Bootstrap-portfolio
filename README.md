@@ -19,7 +19,7 @@ TO show my skills and experience to potential employers
 
 ## Link to Deployed Application
 
-[Live URL](https://ladycosy.github.io/Bootstrap-portfolio/)
+[Live URL](https://ladycosy.github.io/bootstrap-portfolio/)
 
 ## Link to Project GitHub Repo
 
